@@ -3,10 +3,7 @@ body{
 	font-size: 16px;
 	line-height: 26px;
 	color: #7581a1;
-}
-
-li{
-	list-style-type: none;
+	margin-top: 40px;
 }
 
 a{
@@ -24,6 +21,9 @@ h1{
 	font-weight: 700;
 	color: #6e7ea9;
 	text-transform: uppercase;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 ul.menu li{
@@ -31,18 +31,66 @@ ul.menu li{
 	margin-right: 38px;
 }
 
-.btn-free{
+.btn-primary{
 	color: #fff;
-	font-weight: 400;
+	font-size: 9px;
+	letter-spacing: 2.0px;
+	font-weight: 700;
+	text-transform: uppercase;
 	background-color: #1085e4;
-	border-radius: 100%;
+	padding: 15px 32px;
+	border-radius: 30px;
+	border: 1px solid #1085e4;
 }
 
-.get-started-now{
+.btn-primary:hover{
+	color: #010a19;
+	background-color: #fff;
+}
+
+.btn-secondary{
+	color: #7e8bae;
+	font-size: 9px;
+	letter-spacing: 2.0px;
+	font-weight: 700;
+	text-transform: uppercase;
+	background-color: #cbdbe8;
+	padding: 15px 32px;
+	border-radius: 30px;
+	border: 1px solid #cbdbe8;
+}
+
+.btn-secondary:hover{
+	color: #010a19;
+	background-color: #fff;
+	
+}
+
+.btn-free{
+	font-weight: 400;
+	padding: 16px 42px;
+	letter-spacing: 1.3px;
+}
+
+.btn-plan{
+	color: #8085b1;
+	font-size: 9px;
+	letter-spacing: 2.0px;
+	font-weight: 700;
+	text-transform: uppercase;
+	background-color: transparent;
+	padding: 15px 32px;
+	border-radius: 30px;
+	border: 1px solid #dce1e5;
+}
+
+.btn-plan:hover{
 	color: #fff;
-	font-weight: 600;
-	background: #1085e4;
-	border-radius: 100%;
+	background-color: #1085e4;
+}
+
+.btn-group a + a{
+	margin-left: 10px;
 }
 
 .grid h2{
